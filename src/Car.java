@@ -1,7 +1,9 @@
 import java.awt.*;
 
+
+
 //  Data types:
-//  int     ->    intiger 1, 2, 3...
+//  int     ->    integer 1, 2, 3...
 //  String  ->    "a12b" or "Hello World"
 //  Color   ->    from awt library
 //  boolean ->    true or false
@@ -23,5 +25,10 @@ public class Car {
     }
     public void changePaintColor(Color newPaintColor){
         this.paintColor = newPaintColor;
+    }
+
+    public  double speedingUp(double currentSpeed){
+        currentSpeed += 100;
+        return currentSpeed;
     }
 }
